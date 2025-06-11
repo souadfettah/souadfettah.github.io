@@ -4,111 +4,157 @@
   <meta charset="UTF-8">
   <title>CV - Souad FETTAH</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
     }
-    h1, h2, h3 {
-      color: #2c3e50;
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 0;
+    aside {
+      background-color: #2c3e50;
+      color: white;
+      width: 300px;
+      padding: 30px;
     }
-    .contact {
-      margin-top: 0;
+    aside h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    aside p, aside a {
       font-size: 14px;
+      color: #ecf0f1;
+      text-decoration: none;
+    }
+    aside a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px;
+      flex: 1;
     }
     section {
-      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    h3 {
+      margin-bottom: 5px;
+      color: #2980b9;
+    }
+    .job-date {
+      font-size: 13px;
+      color: #7f8c8d;
+      margin-bottom: 10px;
     }
     ul {
+      margin: 0;
       padding-left: 20px;
     }
-    .job-title {
-      font-weight: bold;
-      color: #34495e;
+    ul li {
+      margin-bottom: 5px;
     }
-    .sub {
-      font-style: italic;
-      font-size: 14px;
-      color: #555;
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Souad FETTAH</h1>
-  <p class="contact">
-    Ingénieur développement logiciel<br>
-    📞 +212642050533 · 💼 <a href="https://souadfettah.github.io">souadfettah.github.io</a><br>
-    ✉️ <a href="mailto:fettah.souad@gmail.com">fettah.souad@gmail.com</a> · 📍 Dar Bouazza, Casablanca, Maroc
-  </p>
+  <div class="container">
+    <aside>
+      <h1>Souad FETTAH</h1>
+      <p>Ingénieur développement logiciel</p>
+      <hr style="border: 1px solid #7f8c8d; margin: 20px 0;">
+      <p>📞 +212642050533</p>
+      <p>📧 <a href="mailto:fettah.souad@gmail.com">fettah.souad@gmail.com</a></p>
+      <p>🌍 <a href="https://souadfettah.github.io" target="_blank">souadfettah.github.io</a></p>
+      <p>📍 Dar Bouazza, Casablanca</p>
+    </aside>
 
-  <section>
-    <h2>Résumé professionnel</h2>
-    <p>
-      Ingénieure full stack avec 4+ ans d’expérience en développement web. Expertise en Ruby on Rails, JavaScript, bases de données et frameworks modernes. Leadership d’équipe, gestion de projets, et innovation technique.
-    </p>
-  </section>
+    <main>
+      <section>
+        <h2>Résumé</h2>
+        <p>
+          Ingénieure full stack avec plus de 4 ans d’expérience en Ruby on Rails, React, gestion d’équipe et développement agile. Capable de diriger des projets de bout en bout avec un haut niveau de qualité.
+        </p>
+      </section>
 
-  <section>
-    <h2>Expérience Professionnelle</h2>
+      <section>
+        <h2>Expérience Professionnelle</h2>
 
-    <h3 class="job-title">Lead Developer – Akkodis (Fév. 2023 – Aujourd’hui)</h3>
-    <ul>
-      <li>Direction technique d’équipe, bonnes pratiques et mentorat</li>
-      <li>Développement d’une application web interne en Ruby on Rails</li>
-      <li>Architecture, scalabilité, performance et collaboration client</li>
-      <li>Participation aux sprints Scrum et suivi des indicateurs qualité</li>
-      <li>Utilisation de GitLab pour la revue de code</li>
-    </ul>
+        <h3>Lead Developer – Akkodis</h3>
+        <p class="job-date">Fév. 2023 – Aujourd’hui</p>
+        <ul>
+          <li>Direction technique, mentorat et bonnes pratiques</li>
+          <li>Développement d’une application de gestion en Ruby on Rails</li>
+          <li>Coordination avec les clients et suivi de performance</li>
+        </ul>
 
-    <h3 class="job-title">Ingénieur Développement Logiciels – Linkommunity (Jan. 2021 – Fév. 2023)</h3>
-    <ul>
-      <li>Développement Ruby on Rails pour l’éducation supérieure</li>
-      <li>Analyse des besoins, roadmaps, spécifications et livraisons</li>
-      <li>Formation et encadrement technique de l’équipe</li>
-      <li>Tests automatisés, supervision des serveurs</li>
-    </ul>
+        <h3>Ingénieur Développement Logiciels – Linkommunity</h3>
+        <p class="job-date">Jan. 2021 – Fév. 2023</p>
+        <ul>
+          <li>Applications pour l’enseignement supérieur (RoR)</li>
+          <li>Gestion de roadmap, analyse des besoins, automatisation des tests</li>
+        </ul>
 
-    <h3 class="job-title">Développeur Full-Stack (Stage) – OCTO Technology (Fév. 2020 – Juin 2020)</h3>
-    <ul>
-      <li>Développement Spring Boot + ReactJS/Redux d’une plateforme d’évaluation</li>
-      <li>Utilisation de Trello, GitLab, documentation technique</li>
-    </ul>
-  </section>
+        <h3>Stage Développeur Full-Stack – OCTO Technology</h3>
+        <p class="job-date">Fév. 2020 – Juin 2020</p>
+        <ul>
+          <li>Spring Boot (REST) & ReactJS/Redux</li>
+          <li>Suivi projet via Trello et GitLab</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>Formation</h2>
-    <ul>
-      <li><strong>Diplôme d’ingénieur</strong> – ENSA (2017 – 2020)<br><span class="sub">Développement logiciel, architecture web/mobile, projets agiles</span></li>
-      <li><strong>DEUG Sciences Mathématiques et Informatiques</strong> – FSAC (2015 – 2017)</li>
-      <li><strong>Baccalauréat Scientifique</strong> – Lycée Naciri (2014 – 2015)</li>
-    </ul>
-  </section>
+      <section>
+        <h2>Formation</h2>
+        <ul>
+          <li><strong>Diplôme d’ingénieur</strong> – ENSA (2017 – 2020)</li>
+          <li><strong>DEUG Maths Info</strong> – FSAC Casablanca (2015 – 2017)</li>
+          <li><strong>Baccalauréat Maths A</strong> – Lycée Naciri (2014 – 2015)</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>Compétences</h2>
-    <ul>
-      <li><strong>Web:</strong> Ruby on Rails, ReactJS, Spring Boot, PHP, Laravel</li>
-      <li><strong>Front-end:</strong> HTML5, CSS3, JavaScript (ES6+), AJAX</li>
-      <li><strong>Base de données:</strong> PostgreSQL, MySQL, SQLite</li>
-      <li><strong>Outils:</strong> Git, GitLab, Docker, Heroku, Trello, Jira, Figma</li>
-      <li><strong>Tests:</strong> RSpec, Capybara, MiniTest, TDD</li>
-      <li><strong>DevOps:</strong> Linux, SSH, CI/CD, Capistrano</li>
-    </ul>
-  </section>
+      <section>
+        <h2>Compétences Techniques</h2>
+        <div class="skills-grid">
+          <div><strong>Langages :</strong><br> Ruby, PHP, Python, JavaScript</div>
+          <div><strong>Frameworks :</strong><br> Rails, Laravel, Spring Boot, ReactJS</div>
+          <div><strong>Bases de données :</strong><br> PostgreSQL, MySQL</div>
+          <div><strong>Outils :</strong><br> Git, Docker, Heroku, Trello</div>
+          <div><strong>Tests :</strong><br> RSpec, TDD, Capybara</div>
+          <div><strong>Déploiement :</strong><br> Capistrano, CI/CD, Linux</div>
+        </div>
+      </section>
 
-  <section>
-    <h2>Langues</h2>
-    <ul>
-      <li>Français : Courant</li>
-      <li>Anglais : Technique / Professionnel</li>
-      <li>Arabe : Langue maternelle</li>
-    </ul>
-  </section>
+      <section>
+        <h2>Langues</h2>
+        <ul>
+          <li>Français : Courant</li>
+          <li>Anglais : Professionnel</li>
+          <li>Arabe : Langue maternelle</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
 </body>
 </html>
