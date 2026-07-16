@@ -137,9 +137,9 @@ My personal portfolio showcasing my professional experience and technical skills
 
 ## 📫 Contact
 
-📧 Email: YOUR_EMAIL
+📧 Email: fettah.souad@gmail.com
 
-💼 LinkedIn: YOUR_LINKEDIN
+💼 LinkedIn: https://www.linkedin.com/in/souad-fettah-969624141/
 
 🌍 Portfolio: https://souadfettah.github.io/
 
