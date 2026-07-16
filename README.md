@@ -6,7 +6,7 @@ I'm a Lead Software Engineer with over 5 years of experience designing, developi
 
 I specialize in building reliable backend systems using **Ruby on Rails**, **Python/Django**, **Spring Boot**, and modern frontend applications with **React**.
 
-Currently, I work at **MNK Partners**, where I lead a team of developers and contribute to the development of a real estate investment platform serving more than **1,000 users**.
+Currently, I work at **MNK Partners**, where I lead a team of developers and contribute to the development of a real estate investment platform.
 
 ---
 
